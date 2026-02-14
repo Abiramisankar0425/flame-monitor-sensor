@@ -13,7 +13,7 @@
 - Member 2: [Devika N S] - [scms school of engineering and technology]
 
 ### Hosted Project Link
-[mention your project hosted link here]
+https://drive.google.com/file/d/1RBg28Iskz1H6bXuvcXvm8cTZono6YiOS/view?usp=drivesdk
 
 ### Project Description
 [ OUR PROJECT IS A FLAME MONITOR AND SAFETY SYSTEM.WHICH MONITORS THE GASTOPS,AND  REDUCE THE ACCIDENTS CAUSED BY UNNOTICED CONTINOUS FLAMES.]
@@ -107,9 +107,7 @@ Step-by-Step Assembly
 #### Diagrams
 
 **System Architecture:**
-
-![Architecture Diagram](docs/architecture.png)
-*Explain your system architecture - components, data flow, tech stack interaction*
+https://drive.google.com/file/d/1QuDMGAX_ylTZT3bBxe6zEHVP2zEc5c11/view?usp=drivesdk
 
 **Application Workflow:**
 
@@ -122,16 +120,22 @@ Step-by-Step Assembly
 
 #### Schematic & Circuit
 
-![Circuit](Add your circuit diagram here)
-*Add caption explaining connections*
 (https://drive.google.com/file/d/1WUQaIeFgsZIwDo8JeLRWnNAuPSuQqZSb/view?usp=drivesdk)
 
 #### Build Photos
 
 ![Team](Add photo of your team here)
 
-![Components](Add photo of your components here)
-*List out all components shown*
+![Components] Arduino 
+https://drive.google.com/file/d/1rkpRIj8Sjxyp3r7DYc19xaEcYDF07ZIZ/view?usp=drivesdk
+ Push button 
+https://drive.google.com/file/d/124ib-U1dUHADJ-Ky6YOxjoJIOfReCheO/view?usp=drivesdk
+ Flame
+https://drive.google.com/file/d/1MhH1pQMDBxadHpCkX71U3CXM6znwYjb8/view?usp=drivesdk
+ Buzzer 
+https://drive.google.com/file/d/1MgGNw3vlFsgK6eyeXlz2bccr_taN3pXY/view?usp=drivesdk
+ Servo 
+https://drive.google.com/file/d/1xh5WcCGF-tDpsRuRybw7CV8UDtwSlm42/view?usp=drivesdk
 
 ![Build](Add photos of build process here)
 *Explain the build steps*
@@ -140,104 +144,21 @@ Step-by-Step Assembly
 
 ---
 
-## Additional Documentation
-
-### For Web Projects with Backend:
-
-#### API Documentation
-
-**Base URL:** `https://api.yourproject.com`
-
-##### Endpoints
-
-**GET /api/endpoint**
-- **Description:** [What it does]
-- **Parameters:**
-  - `param1` (string): [Description]
-  - `param2` (integer): [Description]
-- **Response:**
-```json
-{
-  "status": "success",
-  "data": {}
-}
-```
-
-**POST /api/endpoint**
-- **Description:** [What it does]
-- **Request Body:**
-```json
-{
-  "field1": "value1",
-  "field2": "value2"
-}
-```
-- **Response:**
-```json
-{
-  "status": "success",
-  "message": "Operation completed"
-}
-```
-
-[Add more endpoints as needed...]
-
----
-
-### For Mobile Apps:
-
-#### App Flow Diagram
-
-![App Flow](docs/app-flow.png)
-*Explain the user flow through your application*
-
-#### Installation Guide
-
-**For Android (APK):**
-1. Download the APK from [Release Link]
-2. Enable "Install from Unknown Sources" in your device settings:
-   - Go to Settings > Security
-   - Enable "Unknown Sources"
-3. Open the downloaded APK file
-4. Follow the installation prompts
-5. Open the app and enjoy!
-
-**For iOS (IPA) - TestFlight:**
-1. Download TestFlight from the App Store
-2. Open this TestFlight link: [Your TestFlight Link]
-3. Click "Install" or "Accept"
-4. Wait for the app to install
-5. Open the app from your home screen
-
-**Building from Source:**
-```bash
-# For Android
-flutter build apk
-# or
-./gradlew assembleDebug
-
-# For iOS
-flutter build ios
-# or
-xcodebuild -workspace App.xcworkspace -scheme App -configuration Debug
-```
-
----
 
 ### For Hardware Projects:
 
 #### Bill of Materials (BOM)
 
-| Component | Quantity | Specifications | Price | Link/Source |
-|-----------|----------|----------------|-------|-------------|
-| Arduino Uno | 1 | ATmega328P, 16MHz | ₹450 | [Link] |
-| LED | 5 | Red, 5mm, 20mA | ₹5 each | [Link] |
-| Resistor | 5 | 220Ω, 1/4W | ₹1 each | [Link] |
-| Breadboard | 1 | 830 points | ₹100 | [Link] |
-| Jumper Wires | 20 | Male-to-Male | ₹50 | [Link] |
-| [Add more...] | | | | |
+| Component    | Quantity | Specifications    | Price   | Link/Source |
+|--------------|----------|-------------------|---------|-------------|
+| Arduino Uno  | 1        | ATmega328P, 16MHz | ₹450    | [Link] |
+|flame sensor  |1|
 
-**Total Estimated Cost:** ₹[Amount]
+| Breadboard   | 1        | 830 points        | ₹100    | [Link] |
+| Jumper Wires | 20       | Male-to-Male      | ₹50     | [Link] |
+
+
+**Total Estimated Cost:**
 
 #### Assembly Instructions
 
