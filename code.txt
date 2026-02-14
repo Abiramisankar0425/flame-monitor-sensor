@@ -1,0 +1,92 @@
+#include <Servo.h>
+
+#define flamePin A0      
+#define buzzerPin 8      
+#define buttonPin 7      
+#define servoPin 9       
+
+Servo gasServo;
+
+const int thresholdHigh = 200; 
+const int thresholdLow = 500;  
+const unsigned long highDelay = 5000;  
+const unsigned long lowDelay = 5000; 
+
+unsigned long stateStartTime = 0;
+int lastMode = -1; 
+bool buzzerActive = false;
+bool manualSilenced = false; // NEW: Prevents buzzer from re-triggering immediately after button press
+
+void setup() {
+  Serial.begin(9600);
+  pinMode(buzzerPin, OUTPUT);
+  pinMode(buttonPin, INPUT_PULLUP); 
+  
+  gasServo.attach(servoPin);
+  gasServo.write(0); 
+  
+  Serial.println("--- SYSTEM INTEGRATED WITH BUTTON OVERRIDE ---");
+}
+
+void loop() {
+  int flameValue = analogRead(flamePin);
+  bool buttonPressed = (digitalRead(buttonPin) == LOW);
+  int currentMode;
+
+  // 1. DETERMINE FLAME MODE
+  if (flameValue < thresholdHigh) currentMode = 1;
+  else if (flameValue < thresholdLow) currentMode = 2;
+  else currentMode = 0;
+
+  // 2. HANDLE MODE CHANGES
+  if (currentMode != lastMode) {
+    stateStartTime = millis(); 
+    manualSilenced = false; // Reset the manual silence flag when the flame level changes
+    
+    if (currentMode == 1) gasServo.write(90);  
+    if (currentMode == 2) gasServo.write(180); 
+    if (currentMode == 0) gasServo.write(0);   
+    
+    if (buzzerActive) {
+      if (lastMode == 1 && (currentMode == 0 || currentMode == 2)) stopBuzzer("Flame change silenced alarm.");
+      else if (lastMode == 2 && currentMode == 0) stopBuzzer("Flame removed silenced alarm.");
+    }
+    
+    lastMode = currentMode;
+  }
+
+  // 3. BUTTON RESET (The "Pulse" Condition)
+  // If the buzzer is screaming and you hit the button, it shuts off.
+  if (buzzerActive && buttonPressed) {
+    stopBuzzer("Button pulse detected! Alarm OFF.");
+    manualSilenced = true; // Mark that we silenced it manually so it doesn't instantly restart
+    delay(500); // Simple debounce
+  }
+
+  // 4. TIMING & ALARM TRIGGER
+  unsigned long elapsed = millis() - stateStartTime;
+
+  // Only try to start the buzzer if it's not already on and we haven't manually silenced it for this specific flame event
+  if (!buzzerActive && !manualSilenced) {
+    if (currentMode == 1 && elapsed >= highDelay) {
+      startBuzzer("ALARM CASE 1: High Flame timeout (5s)");
+    }
+    else if (currentMode == 2 && elapsed >= lowDelay) {
+      startBuzzer("ALARM CASE 2: Low Flame timeout (8s)");
+    }
+  }
+
+  delay(50); 
+}
+
+void startBuzzer(String msg) {
+  digitalWrite(buzzerPin, HIGH);
+  buzzerActive = true;
+  Serial.println(msg);
+}
+
+void stopBuzzer(String msg) {
+  digitalWrite(buzzerPin, LOW);
+  buzzerActive = false;
+  Serial.println(msg);
+}
