@@ -102,7 +102,7 @@ Step-by-Step Assembly
 
 #### Screenshots (Add at least 3)
 
-(https://drive.google.com/drive/folders/1AbOSknTNM2mketG4gX9uV-hy6HdCVN3h)
+https://drive.google.com/file/d/1CYCUl89IZzrr62z-IsjdJ3Kmwlyig97-/view?usp=drivesdk
 
 #### Diagrams
 
