@@ -163,16 +163,13 @@ Module
 |push button switch| 1    |manual control     | ₹15     | [Link] |
 
 
-**Total Estimated Cost:**
+**Total Estimated Cost:** ≈ ₹1,015 – ₹1,685 
 
 #### Assembly Instructions
 
 **Step 1: Prepare Components**
-1. Gather all components listed in the BOM
-2. Check component specifications
-3. Prepare your workspace
-![Step 1](images/assembly-step1.jpg)
-*Caption: All components laid out*
+1. Gather all components listed in the component list
+2. Check component specification and its working.
 
 **Step 2: Build the Power Supply**
 1. Connect the power rails on the breadboard
@@ -214,25 +211,24 @@ If you used AI tools during development, document them here for transparency:
 
 **Tool Used:** chatgpt ,gemini
 
-**Purpose:** [What you used it for]
-- for getting code ready
+**Purpose:**
+- for getting code ready.
 
 **Key Prompts Used:**
-assign the servo motions wrt to flame intensity
+gnerate the code to assign the servo motions wrt to flame intensity
 **Percentage of AI-generated code:** 90 percetnage
 
 **Human Contributions:**
 -prompting,the project idea,project specifications,testing of product.
 
-*Note: Proper documentation of AI usage demonstrates transparency and earns bonus points in evaluation!*
 
----
 
 ## Team Contributions
+
 abhirami did with hardware,wiring.
 devika did the simulation,prompting.
+both equally contriuted to testing phase
 
----
 
 ## License
 
