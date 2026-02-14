@@ -124,7 +124,7 @@ https://drive.google.com/file/d/1QuDMGAX_ylTZT3bBxe6zEHVP2zEc5c11/view?usp=drive
 
 #### Build Photos
 
-![Team](Add photo of your team here)
+![Team]https://drive.google.com/file/d/1B2vJCpeRgCktg3q-UAgXoKYXqSrDg9Vn/view?usp=drivesdk
 
 ![Components] Arduino 
 https://drive.google.com/file/d/1rkpRIj8Sjxyp3r7DYc19xaEcYDF07ZIZ/view?usp=drivesdk
