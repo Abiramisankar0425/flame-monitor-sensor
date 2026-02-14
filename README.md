@@ -149,18 +149,17 @@ https://drive.google.com/file/d/1xh5WcCGF-tDpsRuRybw7CV8UDtwSlm42/view?usp=drive
 
 #### Bill of Materials (BOM)
 
-| Component    | Quantity | Specifications    | Price   | Link/Source |
-|--------------|----------|-------------------|---------|-------------|
-| Arduino Uno  | 1        | ATmega328P, 16MHz | ₹450    | [Link] |
+| Component            | Quantity | Specifications    | Price    | Link/Source |
+|----------------------|----------|-------------------|----------|-------------|
+| Arduino Uno          | 1        | ATmega328P, 16MHz | ₹450     | [Link] |
 |Flame Sensor
-Module 
-(IR based)      |1       |760–1100 nm         |₹90 – ₹150|
-                            IR spectrum
-|Piezo Buzzer (Active)| 1 |5V DC active buzzer| ₹40     | [Link] |
-| Servo Motor   | 1        |5 V, 180° rotation| ₹180   | [Link] |
-| Breadboard   | 1        | 830 points        | ₹100    | [Link] |
-| Jumper Wires | 20       | Male-to-Male      | ₹50     | [Link] |
-|push button switch| 1    |manual control     | ₹15     | [Link] |
+    Module(IR based)   |1         |760–1100 nm        |₹90 – ₹150|
+                                      IR spectrum
+|Piezo Buzzer (Active) | 1        |5V DC active buzzer| ₹40      | [Link]       |
+| Servo Motor          | 1        |5 V, 180° rotation | ₹180     | [Link]       |
+| Breadboard           | 1        | 830 points        | ₹100     | [Link]       |
+| Jumper Wires         | 20       | Male-to-Male      | ₹50      | [Link]       |
+|push button switch    | 1        |manual control     | ₹15      | [Link]       |
 
 
 **Total Estimated Cost:** ≈ ₹1,015 – ₹1,685 
