@@ -2,27 +2,27 @@
   <img src="./img.png" alt="Project Banner" width="100%">
 </p>
 
-# [Project Name] 🎯
+# [flame monitor sensor and safety control] 🎯
 
 ## Basic Details
 
-### Team Name: [Name]
+### Team Name: [electrotops]
 
 ### Team Members
-- Member 1: [Name] - [College]
-- Member 2: [Name] - [College]
+- Member 1: [Abirami Sankar] - [scms school of engineering and technology]
+- Member 2: [Devika N S] - [scms school of engineering and technology]
 
 ### Hosted Project Link
 [mention your project hosted link here]
 
 ### Project Description
-[2-3 lines about what your project does]
+[ OUR PROJECT IS A FLAME MONITOR AND SAFETY SYSTEM.WHICH MONITORS THE GASTOPS,AND  REDUCE THE ACCIDENTS CAUSED BY UNNOTICED CONTINOUS FLAMES.]
 
 ### The Problem statement
-[What problem are you solving?]
+[PEOPLE OFTEN FORGET ABOUT THE ON STOVE ,AND THE DISHES WILL GET RUINED AND IT CAN ALSO CUASE SERIOUS ACCIDENTS.]
 
 ### The Solution
-[How are you solving it?]
+[OUR SYSTEM ADDRESSES ALL THESE ISSUES,BY MONITORING THE FLAME CONTINOUSLY AND CUTING OFF THE FLAME IF THERE IS NOT VARAITION OF HUMAN INTERVENTON DETECTED FOR A SPECIFIC ABOUNT OF TIME(WHICH IS VARIABLE).]
 
 ---
 
@@ -31,25 +31,25 @@
 ### Technologies/Components Used
 
 **For Software:**
-- Languages used: [e.g., JavaScript, Python, Java]
-- Frameworks used: [e.g., React, Django, Spring Boot]
-- Libraries used: [e.g., axios, pandas, JUnit]
-- Tools used: [e.g., VS Code, Git, Docker]
+- Languages used: C++,ARDUINO PROGRAMMING LANGUAGE.
+- Frameworks used: ARDUINO IDE
+- Libraries used: servo.h
+- Tools used: arduino serial monitor
 
 **For Hardware:**
-- Main components: [List main components]
-- Specifications: [Technical specifications]
-- Tools required: [List tools needed]
+- Main components: arduino board(uno),servo motor,flame sensor,buzzer,push button,breadboard.
+- Specifications:servo:0-180 degree rotation,flame sesnor:analog output (0-1023),power:5v DC
+- Tools required: jumper wires,usb cable.
 
 ---
 
 ## Features
 
 List the key features of your project:
-- Feature 1: [Description]
-- Feature 2: [Description]
-- Feature 3: [Description]
-- Feature 4: [Description]
+- Feature 1: Tri-State Servo Position Control: The system automatically shifts the servo motor to three distinct positions (0^{\circ}, 90^{\circ}, and 180^{\circ}) based on the intensity of the flame detected by the analog sensor.
+- Feature 2: Dual-Stage Delayed Alarm System: It features intelligent time-based monitoring that triggers the buzzer only if a High Flame persists for 5 seconds or a Low Flame persists for 8 seconds, preventing false alarms from momentary flickers
+- Feature 3: Manual & Automatic Alarm Override: Users can silence the alarm using a physical push-button pulse; additionally, the system automatically stops the buzzer if the flame intensity changes to a safer level or is removed entirely
+- Feature 4: Emergency Fail-Safe Shutoff: If the buzzer sounds for more than 5 seconds without user intervention, the system executes an emergency command to return the servo to the 0^{\circ} (Home) position and kill the buzzer to ensure maximum safety.
 
 ---
 
@@ -58,22 +58,41 @@ List the key features of your project:
 ### For Software:
 
 #### Installation
-```bash
-[Installation commands - e.g., npm install, pip install -r requirements.txt]
-```
+# No external package installation required
+# 1. Download and install Arduino IDE from arduino.cc
+# 2. Open the .ino file containing the project code
 
 #### Run
-```bash
-[Run commands - e.g., npm start, python app.py]
-```
+# 1. Connect Arduino via USB
+# 2. Select Board (e.g., Arduino Uno) and Port in IDE
+# 3. Click 'Upload' (Control + U)
+# 4. Open 'Serial Monitor' (Control + Shift + M) to view flame readings
 
 ### For Hardware:
 
 #### Components Required
-[List all components needed with specifications]
+Flame Sensor Pin A0 (Analog) VCC to 5V, GND to GND
+Servo Motor Pin 9 (PWM) Red to 5V, Brown/Black to GND
+Buzzer Pin 8 (Digital) Positive to Pin 8, Negative to GND
+Push Button Pin 7 (Digital) One side to Pin 7, Other side to GND
 
 #### Circuit Setup
-[Explain how to set up the circuit]
+Step-by-Step Assembly
+​Powering the Rails:
+​Connect the Arduino 5V pin to the red (+) rail on the breadboard.
+​Connect the Arduino GND pin to the blue/black (-) rail on the breadboard.
+​Flame Sensor Setup:
+​VCC to the 5V rail.
+​GND to the GND rail.
+​AO (Analog Out) to Arduino Pin A0.
+​Servo Motor Setup:
+​Signal (Orange) to Arduino Pin 9.
+​VCC (Red) to the 5V rail.
+​GND (Brown/Black) to the GND rail.
+​Note: If the servo jitters, use an external 5V-6V battery pack, connecting the battery GND to the Arduino GND.
+​Buzzer & Button Setup:
+​Buzzer (+) to Arduino Pin 8 and (-) to GND.
+​Push Button: Connect one side to Pin 7 and the other side to GND. The code uses INPUT_PULLUP, so no external resistor is needed
 
 ---
 
@@ -83,14 +102,7 @@ List the key features of your project:
 
 #### Screenshots (Add at least 3)
 
-![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
-
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
-
-![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
+(https://drive.google.com/drive/folders/1AbOSknTNM2mketG4gX9uV-hy6HdCVN3h)
 
 #### Diagrams
 
@@ -112,9 +124,7 @@ List the key features of your project:
 
 ![Circuit](Add your circuit diagram here)
 *Add caption explaining connections*
-
-![Schematic](Add your schematic diagram here)
-*Add caption explaining the schematic*
+(https://drive.google.com/file/d/1WUQaIeFgsZIwDo8JeLRWnNAuPSuQqZSb/view?usp=drivesdk)
 
 #### Build Photos
 
@@ -126,8 +136,7 @@ List the key features of your project:
 ![Build](Add photos of build process here)
 *Explain the build steps*
 
-![Final](Add photo of final product here)
-*Explain the final build*
+![Final](https://drive.google.com/drive/folders/1AbOSknTNM2mketG4gX9uV-hy6HdCVN3h)
 
 ---
 
@@ -257,8 +266,7 @@ xcodebuild -workspace App.xcworkspace -scheme App -configuration Debug
 **Step 4: [Continue for all steps...]**
 
 **Final Assembly:**
-![Final Build](images/final-build.jpg)
-*Caption: Completed project ready for testing*
+(https://drive.google.com/file/d/1RBg28Iskz1H6bXuvcXvm8cTZono6YiOS/view?usp=drivesdk)
 
 ---
 
@@ -361,7 +369,7 @@ python script.py -v --format json data.json
 ## Project Demo
 
 ### Video
-[Add your demo video link here - YouTube, Google Drive, etc.]
+(https://drive.google.com/file/d/1RBg28Iskz1H6bXuvcXvm8cTZono6YiOS/view?usp=drivesdk)
 
 *Explain what the video demonstrates - key features, user flow, technical highlights*
 
@@ -374,35 +382,25 @@ python script.py -v --format json data.json
 
 If you used AI tools during development, document them here for transparency:
 
-**Tool Used:** [e.g., GitHub Copilot, v0.dev, Cursor, ChatGPT, Claude]
+**Tool Used:** chatgpt ,gemini
 
 **Purpose:** [What you used it for]
-- Example: "Generated boilerplate React components"
-- Example: "Debugging assistance for async functions"
-- Example: "Code review and optimization suggestions"
+- for getting code ready
 
 **Key Prompts Used:**
-- "Create a REST API endpoint for user authentication"
-- "Debug this async function that's causing race conditions"
-- "Optimize this database query for better performance"
-
-**Percentage of AI-generated code:** [Approximately X%]
+assign the servo motions wrt to flame intensity
+**Percentage of AI-generated code:** 90 percetnage
 
 **Human Contributions:**
-- Architecture design and planning
-- Custom business logic implementation
-- Integration and testing
-- UI/UX design decisions
+-prompting,the project idea,project specifications,testing of product.
 
 *Note: Proper documentation of AI usage demonstrates transparency and earns bonus points in evaluation!*
 
 ---
 
 ## Team Contributions
-
-- [Name 1]: [Specific contributions - e.g., Frontend development, API integration, etc.]
-- [Name 2]: [Specific contributions - e.g., Backend development, Database design, etc.]
-- [Name 3]: [Specific contributions - e.g., UI/UX design, Testing, Documentation, etc.]
+abhirami did with hardware,wiring.
+devika did the simulation,prompting.
 
 ---
 
