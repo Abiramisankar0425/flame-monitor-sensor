@@ -19,10 +19,10 @@ https://drive.google.com/file/d/1RBg28Iskz1H6bXuvcXvm8cTZono6YiOS/view?usp=drive
 [ OUR PROJECT IS "THE FLAME MONITOR AND SAFETY SYSTEM". WHICH MONITORS THE GASTOPS AND  REDUCE  ACCIDENTS CAUSED BY UNNOTICED CONTINUOUS FLAMES.]
 
 ### The Problem statement
-[PEOPLE OFTEN FORGET ABOUT THE ON STOVE ,AND THE DISHES WILL GET RUINED AND IT CAN ALSO CUASE SERIOUS ACCIDENTS.]
+[FORGETTING FOOD ON THE STOVE CAN RUIN THE MEALS, CAUSE COOKING GAS WASTAGE AND POSE SERIOUS SAFETY RISKS.]
 
 ### The Solution
-[OUR SYSTEM ADDRESSES ALL THESE ISSUES,BY MONITORING THE FLAME CONTINOUSLY AND CUTING OFF THE FLAME IF THERE IS NOT VARAITION OF HUMAN INTERVENTON DETECTED FOR A SPECIFIC ABOUNT OF TIME(WHICH IS VARIABLE).]
+[OUR SYSTEM ADDRESSES ALL THESE ISSUES BY MONITORING THE FLAME CONTINUOUSLY AND CUTTING OFF THE FLAME IF THERE IS NO HUMAN INTERVENTION DETECTED, FOR A PARTICULAR AMOUNT OF TIME (WHICH IS VARIABLE).]
 
 ---
 
@@ -34,21 +34,30 @@ https://drive.google.com/file/d/1RBg28Iskz1H6bXuvcXvm8cTZono6YiOS/view?usp=drive
 - Languages used: C++,ARDUINO PROGRAMMING LANGUAGE.
 - Frameworks used: ARDUINO IDE
 - Libraries used: servo.h
-- Tools used: arduino serial monitor
+- Tools used: Arduino serial monitor
 
 **For Hardware:**
-- Main components: arduino board(uno),servo motor,flame sensor,buzzer,push button,breadboard.
-- Specifications:servo:0-180 degree rotation,flame sesnor:analog output (0-1023),power:5v DC
-- Tools required: jumper wires,usb cable.
+- Main components: Arduino board(uno), servo motor,flame sensor,buzzer,push button, breadboard.
+- Specifications:servo:0-180 degree rotation, flame sensor: analog output (0-1023), power: 5V DC
+- Tools required: jumper wires, USB cable.
 
 ---
 
 ## Features
 
 List the key features of your project:
-- Feature 1: Tri-State Servo Position Control: The system automatically shifts the servo motor to three distinct positions (0^{\circ}, 90^{\circ}, and 180^{\circ}) based on the intensity of the flame detected by the analog sensor.
-- Feature 2: Dual-Stage Delayed Alarm System: It features intelligent time-based monitoring that triggers the buzzer only if a High Flame persists for 5 seconds or a Low Flame persists for 8 seconds, preventing false alarms from momentary flickers
-- Feature 3: Manual & Automatic Alarm Override: Users can silence the alarm using a physical push-button pulse; additionally, the system automatically stops the buzzer if the flame intensity changes to a safer level or is removed entirely
+- Feature 1: Tri-State Servo Position Control (Stove Knob Indicator)
+The system automatically positions the servo motor at three predefined angles to represent flame conditions:
+
+0° → No flame
+−90° → High flame
+−180° → Low flame
+
+These positions are determined based on the intensity of the flame detected by the analog sensor.
+
+In real gas stoves, flame intensity changes gradually as the knob is rotated. However, due to limited components, the system assumes an instantaneous response and does not account for the time delay between knob rotation and flame stabilisation.
+- Feature 2: Dual-Stage Delayed Alarm System: It features intelligent time-based monitoring that triggers the buzzer only if a High Flame persists for 5 seconds or a Low Flame persists for 8 seconds, preventing false alarms from momentary flickers.(The time set is variable here)
+- Feature 3: Manual & Automatic Alarm Override: Users can silence the alarm using a physical push-button pulse; additionally, the system automatically stops the buzzer if the flame intensity changes to a safer level or is removed entirely.
 - Feature 4: Emergency Fail-Safe Shutoff: If the buzzer sounds for more than 5 seconds without user intervention, the system executes an emergency command to return the servo to the 0^{\circ} (Home) position and kill the buzzer to ensure maximum safety.
 
 ---
@@ -60,7 +69,7 @@ List the key features of your project:
 #### Installation
 # No external package installation required
 # 1. Download and install Arduino IDE from arduino.cc
-# 2. Open the .ino file containing the project code
+# 2.paste the project code into the Code Editor (Sketch Area) and run the code.
 
 #### Run
 # 1. Connect Arduino via USB
@@ -89,7 +98,7 @@ Step-by-Step Assembly
 ​Signal (Orange) to Arduino Pin 9.
 ​VCC (Red) to the 5V rail.
 ​GND (Brown/Black) to the GND rail.
-​Note: If the servo jitters, use an external 5V-6V battery pack, connecting the battery GND to the Arduino GND.
+​Note: If the servo jitters, use an external 5V-6V battery pack and connect the battery GND to the Arduino GND.
 ​Buzzer & Button Setup:
 ​Buzzer (+) to Arduino Pin 8 and (-) to GND.
 ​Push Button: Connect one side to Pin 7 and the other side to GND. The code uses INPUT_PULLUP, so no external resistor is needed
@@ -100,19 +109,16 @@ Step-by-Step Assembly
 
 ### For Software:
 
-#### Screenshots (Add at least 3)
-
+#### Screenshots 
+**ARDUINO IDE: code running and output on serial monitor**
 https://drive.google.com/file/d/1CYCUl89IZzrr62z-IsjdJ3Kmwlyig97-/view?usp=drivesdk
 
 #### Diagrams
 
 **System Architecture:**
-https://drive.google.com/file/d/1QuDMGAX_ylTZT3bBxe6zEHVP2zEc5c11/view?usp=drivesdk
+https://drive.google.com/file/d/1DNQHR8fUu7wLXoPps5-UWkShNOwV6JcY/view?usp=sharing
 
-**Application Workflow:**
 
-![Workflow](docs/workflow.png)
-*Add caption explaining your workflow*
 
 ---
 
