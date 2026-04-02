@@ -67,15 +67,15 @@ In real gas stoves, flame intensity changes gradually as the knob is rotated. Ho
 ### For Software:
 
 #### Installation
-# No external package installation required
-# 1. Download and install Arduino IDE from arduino.cc
-# 2.paste the project code into the Code Editor (Sketch Area) and run the code.
+ No external package installation required
+ 1. Download and install Arduino IDE from arduino.cc
+ 2.paste the project code into the Code Editor (Sketch Area) and run the code.
 
 #### Run
-# 1. Connect Arduino via USB
-# 2. Select Board (e.g., Arduino Uno) and Port in IDE
-# 3. Click 'Upload' (Control + U)
-# 4. Open 'Serial Monitor' (Control + Shift + M) to view flame readings
+ 1. Connect Arduino via USB
+ 2. Select Board (e.g., Arduino Uno) and Port in IDE
+ 3. Click 'Upload' (Control + U)
+ 4. Open 'Serial Monitor' (Control + Shift + M) to view flame readings
 
 ### For Hardware:
 
