@@ -80,11 +80,11 @@ In real gas stoves, flame intensity changes gradually as the knob is rotated. Ho
 ### For Hardware:
 
 #### Components Required
-1. Flame Sensor Pin A0 (Analog) VCC to 5V
-2. GND to GND
-3. Servo Motor Pin 9 (PWM) Red to 5V, Brown/Black to GND
-4. Buzzer Pin 8 (Digital) Positive to Pin 8, Negative to GND
-5. Push Button Pin 7 (Digital) One side to Pin 7, Other side to GND
+1. Flame Sensor Pin A0 (Analog) VCC to 5V.
+2. GND to GND.
+3. Servo Motor Pin 9 (PWM) Red to 5V, Brown/Black to GND.
+4. Buzzer Pin 8 (Digital) Positive to Pin 8, Negative to GND.
+5. Push Button Pin 7 (Digital) One side to Pin 7, Other side to GND.
 
 #### Circuit Setup
 Step-by-Step Assembly
