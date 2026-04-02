@@ -131,25 +131,22 @@ https://drive.google.com/file/d/1DNQHR8fUu7wLXoPps5-UWkShNOwV6JcY/view?usp=shari
 
 (https://drive.google.com/file/d/1WUQaIeFgsZIwDo8JeLRWnNAuPSuQqZSb/view?usp=drivesdk)
 
-#### Build Photos
+#### components Photo
 
-![Team]https://drive.google.com/file/d/1B2vJCpeRgCktg3q-UAgXoKYXqSrDg9Vn/view?usp=drivesdk
-
-![Components] Arduino 
+![Team]
+https://drive.google.com/file/d/1mqIMhLdEWElNi-o8yM2zaM2wITA1BW_4/view?usp=drive_link
+![Components]
+1. Arduino 
 https://drive.google.com/file/d/1rkpRIj8Sjxyp3r7DYc19xaEcYDF07ZIZ/view?usp=drivesdk
- Push button 
+2. Push button 
 https://drive.google.com/file/d/124ib-U1dUHADJ-Ky6YOxjoJIOfReCheO/view?usp=drivesdk
- Flame
+3.  Flame
 https://drive.google.com/file/d/1MhH1pQMDBxadHpCkX71U3CXM6znwYjb8/view?usp=drivesdk
- Buzzer 
+4. Buzzer 
 https://drive.google.com/file/d/1MgGNw3vlFsgK6eyeXlz2bccr_taN3pXY/view?usp=drivesdk
- Servo 
+5.  Servo 
 https://drive.google.com/file/d/1xh5WcCGF-tDpsRuRybw7CV8UDtwSlm42/view?usp=drivesdk
 
-![Build](Add photos of build process here)
-*Explain the build steps*
-
-![Final](https://drive.google.com/drive/folders/1AbOSknTNM2mketG4gX9uV-hy6HdCVN3h)
 
 ---
 
@@ -175,27 +172,24 @@ https://drive.google.com/file/d/1xh5WcCGF-tDpsRuRybw7CV8UDtwSlm42/view?usp=drive
 
 **Step 1: Prepare Components**
 1. Gather all components listed in the component list
-2. Check component specification and its working.
+2. Check the component specification and its working.
 
 **Step 2: Build the Power Supply**
 1. Connect the power rails on the breadboard
-2. Connect Arduino 5V to breadboard positive rail
+2. Connect Arduino 5V to the breadboard positive rail
 3. Connect Arduino GND to breadboard negative rail
-![Step 2](images/assembly-step2.jpg)
-*Caption: Power connections completed*
 
 **Step 3: Add Components**
 1. Place LEDs on breadboard
 2. Connect resistors in series with LEDs
 3. Connect LED cathodes to GND
 4. Connect LED anodes to Arduino digital pins (2-6)
-![Step 3](images/assembly-step3.jpg)
-*Caption: LED circuit assembled*
 
 **Step 4: [Continue for all steps...]**
 
 **Final Assembly:**
-(https://drive.google.com/file/d/1RBg28Iskz1H6bXuvcXvm8cTZono6YiOS/view?usp=drivesdk)
+
+https://drive.google.com/file/d/1cBX_JExsqBk05uirdQ8uhWr45Pqog3oD/view?usp=drive_link
 
 
 
@@ -204,36 +198,28 @@ https://drive.google.com/file/d/1xh5WcCGF-tDpsRuRybw7CV8UDtwSlm42/view?usp=drive
 ### Video
 (https://drive.google.com/file/d/1RBg28Iskz1H6bXuvcXvm8cTZono6YiOS/view?usp=drivesdk)
 
-*Explain what the video demonstrates - key features, user flow, technical highlights*
-
-### Additional Demos
-[Add any extra demo materials/links - Live site, APK download, online demo, etc.]
-
----
 
 ## AI Tools Used (Optional - For Transparency Bonus)
 
-If you used AI tools during development, document them here for transparency:
-
-**Tool Used:** chatgpt ,gemini
+**Tools Used:** chatgpt ,gemini
 
 **Purpose:**
-- for getting code ready.
+- for getting the code ready.
 
 **Key Prompts Used:**
-gnerate the code to assign the servo motions wrt to flame intensity
-**Percentage of AI-generated code:** 90 percetnage
+Generate the code to assign the servo motions wrt to the flame intensity.
+**Percentage of AI-generated code:** 90 percentage.
 
 **Human Contributions:**
--prompting,the project idea,project specifications,testing of product.
+-the project idea,prompting ,project assembly, debugging the errors and testing of product.
 
 
 
 ## Team Contributions
 
-abhirami did with hardware,wiring.
-devika did the simulation,prompting.
-both equally contriuted to testing phase
+1. abhirami did with hardware and wiring.
+2. devika did the simulation, prompting.
+3. Both equally contributed to the testing phase.
 
 
 ## License
