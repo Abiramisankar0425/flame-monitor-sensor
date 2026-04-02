@@ -99,6 +99,7 @@ Step-by-Step Assembly
 ​1. Signal (Orange) to Arduino Pin 9.
 ​2. VCC (Red) to the 5V rail.
 ​3. GND (Brown/Black) to the GND rail.
+
 ​Note: If the servo jitters, use an external 5V-6V battery pack and connect the battery GND to the Arduino GND.
 ​Buzzer & Button Setup:
 ​1. Buzzer (+) to Arduino Pin 8 and (-) to GND.
