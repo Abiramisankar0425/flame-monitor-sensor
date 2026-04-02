@@ -10,13 +10,13 @@
 
 ### Team Members
 - Member 1: [Abirami Sankar] - [scms school of engineering and technology]
-- Member 2: [Devika N S] - [scms school of engineering and technology]
+- Member 2: [  Devika N S  ] - [scms school of engineering and technology]
 
 ### Hosted Project Link
 https://drive.google.com/file/d/1RBg28Iskz1H6bXuvcXvm8cTZono6YiOS/view?usp=drivesdk
 
 ### Project Description
-[ OUR PROJECT IS A FLAME MONITOR AND SAFETY SYSTEM.WHICH MONITORS THE GASTOPS,AND  REDUCE THE ACCIDENTS CAUSED BY UNNOTICED CONTINOUS FLAMES.]
+[ OUR PROJECT IS "THE FLAME MONITOR AND SAFETY SYSTEM". WHICH MONITORS THE GASTOPS AND  REDUCE  ACCIDENTS CAUSED BY UNNOTICED CONTINUOUS FLAMES.]
 
 ### The Problem statement
 [PEOPLE OFTEN FORGET ABOUT THE ON STOVE ,AND THE DISHES WILL GET RUINED AND IT CAN ALSO CUASE SERIOUS ACCIDENTS.]
