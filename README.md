@@ -117,7 +117,7 @@ In real gas stoves, flame intensity changes gradually as the knob is rotated. Ho
 
 **Final Assembly:**
 
-<img width="1400" height="1000" alt="image" src="https://github.com/user-attachments/assets/ec2faaab-f724-4c68-bee9-500f2b6c557d" />
+<img width="1000" height="600" alt="image" src="https://github.com/user-attachments/assets/ec2faaab-f724-4c68-bee9-500f2b6c557d" />
 
 ---
 
