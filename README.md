@@ -69,7 +69,7 @@ In real gas stoves, flame intensity changes gradually as the knob is rotated. Ho
 #### Installation
  No external package installation required
  1. Download and install Arduino IDE from arduino.cc
- 2.paste the project code into the Code Editor (Sketch Area) and run the code.
+ 2. Paste the project code into the Code Editor (Sketch Area) and run the code.
 
 #### Run
  1. Connect Arduino via USB
@@ -115,6 +115,10 @@ In real gas stoves, flame intensity changes gradually as the knob is rotated. Ho
 #### ​Push Button:
 1. Connect one side to Pin 7 and the other side to GND. The code uses INPUT_PULLUP, so no external resistor is needed
 
+**Final Assembly:**
+
+<img width="1400" height="1000" alt="image" src="https://github.com/user-attachments/assets/ec2faaab-f724-4c68-bee9-500f2b6c557d" />
+
 ---
 
 ## Project Documentation
@@ -146,16 +150,16 @@ https://drive.google.com/file/d/1CYCUl89IZzrr62z-IsjdJ3Kmwlyig97-/view?usp=drive
 
 #### components Photo
 
-Components
-1. Arduino 
+#### Components
+1. Arduino UNO
 https://drive.google.com/file/d/1rkpRIj8Sjxyp3r7DYc19xaEcYDF07ZIZ/view?usp=drivesdk
 2. Push button 
 https://drive.google.com/file/d/124ib-U1dUHADJ-Ky6YOxjoJIOfReCheO/view?usp=drivesdk
-3.  Flame
-https://drive.google.com/file/d/1MhH1pQMDBxadHpCkX71U3CXM6znwYjb8/view?usp=drivesdk
+3.  Flame sensor
+https://drive.google.com/file/d/1pS8cAkXfdaMsLc2w9xU1zE7mrl8lVjI_/view?usp=sharing
 4. Buzzer 
 https://drive.google.com/file/d/1MgGNw3vlFsgK6eyeXlz2bccr_taN3pXY/view?usp=drivesdk
-5.  Servo 
+5.  Servo motor
 https://drive.google.com/file/d/1xh5WcCGF-tDpsRuRybw7CV8UDtwSlm42/view?usp=drivesdk
 
 
@@ -179,29 +183,6 @@ https://drive.google.com/file/d/1xh5WcCGF-tDpsRuRybw7CV8UDtwSlm42/view?usp=drive
 
 **Total Estimated Cost:** ≈ ₹1,015 – ₹1,685 
 
-#### Assembly Instructions
-
-**Step 1: Prepare Components**
-1. Gather all components listed in the component list
-2. Check the component specification and its working.
-
-**Step 2: Build the Power Supply**
-1. Connect the power rails on the breadboard
-2. Connect Arduino 5V to the breadboard positive rail
-3. Connect Arduino GND to breadboard negative rail
-
-**Step 3: Add Components**
-1. Place LEDs on breadboard
-2. Connect resistors in series with LEDs
-3. Connect LED cathodes to GND
-4. Connect LED anodes to Arduino digital pins (2-6)
-
-**Step 4: [Continue for all steps...]**
-
-**Final Assembly:**
-
-https://drive.google.com/file/d/1cBX_JExsqBk05uirdQ8uhWr45Pqog3oD/view?usp=drive_link
-
 
 
 ## Project Demo
@@ -212,17 +193,17 @@ https://drive.google.com/file/d/1cBX_JExsqBk05uirdQ8uhWr45Pqog3oD/view?usp=drive
 
 ## AI Tools Used (Optional - For Transparency Bonus)
 
-**Tools Used:** chatgpt ,gemini
+**Tools Used:** chatgpt ,gemini.
 
 **Purpose:**
 - for getting the code ready.
 
 **Key Prompts Used:**
 Generate the code to assign the servo motions wrt to the flame intensity.
-**Percentage of AI-generated code:** 90 percentage.
+**Percentage of AI-generated code:** 90%.
 
 **Human Contributions:**
--the project idea,prompting ,project assembly, debugging the errors and testing of product.
+-the project idea,prompting, project assembly, debugging the errors and testing of product.
 
 
 
@@ -230,17 +211,8 @@ Generate the code to assign the servo motions wrt to the flame intensity.
 
 1. abhirami did with hardware and wiring.
 2. devika did the simulation, prompting.
-3. Both equally contributed to the testing phase.
+3. Both equally contributed to the debugging and testing phase.
 
-
-## License
-
-This project is licensed under the [LICENSE_NAME] License - see the [LICENSE](LICENSE) file for details.
-
-**Common License Options:**
-- MIT License (Permissive, widely used)
-- Apache 2.0 (Permissive with patent grant)
-- GPL v3 (Copyleft, requires derivative works to be open source)
 
 ---
 
