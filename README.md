@@ -86,6 +86,8 @@ In real gas stoves, flame intensity changes gradually as the knob is rotated. Ho
  4. Buzzer Pin 8 (Digital) Positive to Pin 8, Negative to GND.
  5. Push Button Pin 7 (Digital) One side to Pin 7, Other side to GND.
 
+    
+---
 #### Circuit Setup
 ## Step-by-Step Assembly
 ## Powering the Rails:
