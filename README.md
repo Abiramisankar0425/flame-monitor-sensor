@@ -128,7 +128,8 @@ https://drive.google.com/file/d/1CYCUl89IZzrr62z-IsjdJ3Kmwlyig97-/view?usp=drive
 #### Diagrams
 
 **System Architecture:**
-https://drive.google.com/file/d/1DNQHR8fUu7wLXoPps5-UWkShNOwV6JcY/view?usp=sharing
+<img width="1041" height="919" alt="system arch" src="https://github.com/user-attachments/assets/ab611547-f067-4f2f-b04e-e583728db525" />
+
 
 
 
@@ -140,13 +141,12 @@ https://drive.google.com/file/d/1DNQHR8fUu7wLXoPps5-UWkShNOwV6JcY/view?usp=shari
 
 (https://drive.google.com/file/d/1WUQaIeFgsZIwDo8JeLRWnNAuPSuQqZSb/view?usp=drivesdk)
 
-#### components Photo
-
-![Team]
+### Team
 ![team png](https://github.com/user-attachments/assets/9ab316fe-ef65-4301-87d8-766929d85ca7)
 
+#### components Photo
 
-![Components]
+Components
 1. Arduino 
 https://drive.google.com/file/d/1rkpRIj8Sjxyp3r7DYc19xaEcYDF07ZIZ/view?usp=drivesdk
 2. Push button 
