@@ -143,7 +143,9 @@ https://drive.google.com/file/d/1DNQHR8fUu7wLXoPps5-UWkShNOwV6JcY/view?usp=shari
 #### components Photo
 
 ![Team]
-https://drive.google.com/file/d/1mqIMhLdEWElNi-o8yM2zaM2wITA1BW_4/view?usp=drive_link
+![team png](https://github.com/user-attachments/assets/9ab316fe-ef65-4301-87d8-766929d85ca7)
+
+
 ![Components]
 1. Arduino 
 https://drive.google.com/file/d/1rkpRIj8Sjxyp3r7DYc19xaEcYDF07ZIZ/view?usp=drivesdk
