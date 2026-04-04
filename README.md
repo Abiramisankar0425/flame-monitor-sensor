@@ -90,29 +90,29 @@ In real gas stoves, flame intensity changes gradually as the knob is rotated. Ho
 
 ## Circuit setup
 
-## Step-by-Step Assembly
+### Step-by-Step Assembly
           
-## powering the rails
+#### powering the rails
 1. Connect the Arduino 5V pin to the red (+) rail on the breadboard.
 2. ​Connect the Arduino GND pin to the blue/black (-) rail on the breadboard.
 
 
-## ​Flame Sensor Setup:
+#### ​Flame Sensor Setup:
 1. ​VCC to the 5V rail.
 2. ​GND to the GND rail.
 3. AO (Analog Out) to Arduino Pin A0.
   
 
-## ​Servo motor setup:
+#### ​Servo motor setup:
 1. Signal (Orange) to Arduino Pin 9.
 2. VCC (Red) to the 5V rail.
 3. GND (Brown/Black) to the GND rail.
 
 ​Note: If the servo jitters, use an external 5V-6V battery pack and connect the battery GND to the Arduino GND.
 
-## ​Buzzer & Button Setup:
+#### ​Buzzer & Button Setup:
 ​1. Buzzer (+) to Arduino Pin 8 and (-) to GND.
-## ​Push Button:
+#### ​Push Button:
 1. Connect one side to Pin 7 and the other side to GND. The code uses INPUT_PULLUP, so no external resistor is needed
 
 ---
