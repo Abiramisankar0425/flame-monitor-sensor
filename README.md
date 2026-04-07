@@ -134,9 +134,6 @@ https://drive.google.com/file/d/1CYCUl89IZzrr62z-IsjdJ3Kmwlyig97-/view?usp=drive
 **System Architecture:**
 <img width="1041" height="919" alt="system arch" src="https://github.com/user-attachments/assets/ab611547-f067-4f2f-b04e-e583728db525" />
 
-
-
-
 ---
 
 ### For Hardware:
@@ -162,28 +159,23 @@ https://drive.google.com/file/d/1MgGNw3vlFsgK6eyeXlz2bccr_taN3pXY/view?usp=drive
 5.  Servo motor
 https://drive.google.com/file/d/1xh5WcCGF-tDpsRuRybw7CV8UDtwSlm42/view?usp=drivesdk
 
-
 ---
-
 
 ### For Hardware Projects:
 
 #### Bill of Materials (BOM)
 
-| Component                      | Quantity | Specifications          | Price    | Link/Source |
-|--------------------------------|----------|-------------------------|----------|-------------|
-| Arduino Uno                    | 1        | ATmega328P, 16MHz       | ₹450     | [Link]      |
-|Flame Sensor Module(IR based)   | 1        |760–1100 nm  IR spectrum |₹90 – ₹150| [Link]
-|Piezo Buzzer (Active)           | 1        |5V DC active buzzer      | ₹40      | [Link]      |
-| Servo Motor                    | 1        |5 V, 180° rotation       | ₹180     | [Link]      |
-| Breadboard                     | 1        | 830 points              | ₹100     | [Link]      |
-| Jumper Wires                   | 20       | Male-to-Male            | ₹50      | [Link]      |
-|push button switch              | 1        |manual control           | ₹15      | [Link]      |
-
+| Component                      | Quantity | Specifications          | Price    |
+|--------------------------------|----------|-------------------------|----------|
+| Arduino Uno                    | 1        | ATmega328P, 16MHz       | ₹450     | 
+|Flame Sensor Module(IR based)   | 1        |760–1100 nm  IR spectrum |₹90 – ₹150| 
+|Piezo Buzzer (Active)           | 1        |5V DC active buzzer      | ₹40      | 
+| Servo Motor                    | 1        |5 V, 180° rotation       | ₹180     | 
+| Breadboard                     | 1        | 830 points              | ₹100     |
+| Jumper Wires                   | 20       | Male-to-Male            | ₹50      | 
+|push button switch              | 1        |manual control           | ₹15      | 
 
 **Total Estimated Cost:** ≈ ₹1,015 – ₹1,685 
-
-
 
 ## Project Demo
 
