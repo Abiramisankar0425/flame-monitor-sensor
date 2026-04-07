@@ -31,7 +31,7 @@ OUR SYSTEM ADDRESSES ALL THESE ISSUES BY MONITORING THE FLAME CONTINUOUSLY AND C
 ### Technologies/Components Used
 
 **For Software:**
-- Languages used: C++,ARDUINO PROGRAMMING LANGUAGE.
+- Languages used: C++
 - Frameworks used: ARDUINO IDE
 - Libraries used: servo.h
 - Tools used: Arduino serial monitor
