@@ -2,7 +2,7 @@
   <img src="./img.png" alt="Project Banner" width="100%">
 </p>
 
-# flame monitor and safety control system 🎯
+# flame monitor and safety control system 
 
 ## Basic Details
 
